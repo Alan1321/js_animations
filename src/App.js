@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Nada from './Nada';
-import Popup from './Popup';
+import Popups from './Popup';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
   return (
       <div className="App">
         <Nada />
-        <Popup value={'hey im popup'}/>
+        <Popups />
       </div>
   );
 }

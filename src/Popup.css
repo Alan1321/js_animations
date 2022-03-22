@@ -1,17 +1,17 @@
-.modal{
+.modal-active{
     position:absolute;
     float: left;
     background-color: black;
     z-index: 1000;
-    top:0;
-    right:0;
+    /* top:0;
+    right:0; */
     font-family: monospace;
     padding:10px;
     display: flex;
     justify-content: space-between;
     width: 15vw;
     height:'auto';
-    
+
     border-top-right-radius:15px;
     border-top-left-radius:15px;
     border-bottom-right-radius:15px;
@@ -22,6 +22,13 @@
         -ms-animation: fadein 3s; /* Internet Explorer */
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s; 
+}
+
+.modal-outer-container{
+    width:15vw;
+    background-color: blue;
+    height:auto;
+    display:flex;
 }
 
 @keyframes fadein {
