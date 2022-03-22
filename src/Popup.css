@@ -1,5 +1,4 @@
 .modal-active{
-    position:absolute;
     float: left;
     background-color: black;
     z-index: 1000;
@@ -11,7 +10,7 @@
     justify-content: space-between;
     width: 15vw;
     height:'auto';
-
+    margin:1rem;
     border-top-right-radius:15px;
     border-top-left-radius:15px;
     border-bottom-right-radius:15px;
@@ -25,10 +24,11 @@
 }
 
 .modal-outer-container{
+    position:absolute;
+    float: left;
     width:15vw;
-    background-color: blue;
+    /* background-color: blue; */
     height:auto;
-    display:flex;
 }
 
 @keyframes fadein {
